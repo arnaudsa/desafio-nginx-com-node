@@ -16,7 +16,7 @@ docker-compose up -d --build
 
 ----
 
-## A aplicação possui dois endpoints um para listar os usuários e outro para cadastrar o usuário
+## Utilizando a aplicação
 
 Cadastrando um usuário
 
