@@ -13,7 +13,7 @@ Para subir a aplicação é necessário ter o docker instalado, executar o coman
 docker-compose up -d --build
 ```
 
-A aplicação possui dois endpoints um para listar os usuários e outro para cadastrar o usuário.
+### A aplicação possui dois endpoints um para listar os usuários e outro para cadastrar o usuário.
 - Cadastrando um usuário
  ```console
  curl --location --request POST 'localhost:8080/users' \
