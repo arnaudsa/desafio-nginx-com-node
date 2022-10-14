@@ -14,7 +14,7 @@ services:
     build:
       context: ./
     image: arnaudsa/sample-app-dev
-    entrypoint: dockerize -wait tcp://db:5432 -wait http://nginx:80 -timeout 30s docker-entrypoint.sh
+    entrypoint: dockerize -wait tcp://db:5432 -timeout 30s node app.js
     container_name: app
     ports:
       - "3000:3000"
