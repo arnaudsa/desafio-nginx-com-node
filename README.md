@@ -1,13 +1,5 @@
 # desafio-nginx-com-node
 
-## Fazendo o setup do projeto  
-
-Baixar as dependências do projeto
-
-```console
-npm install
-```
-
 Para subir a aplicação é necessário ter o docker instalado, executar o comando abaixo para fazer o build de app
 
 ```console
