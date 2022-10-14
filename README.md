@@ -16,8 +16,8 @@ Cadastrando um usuário
  curl --location --request POST 'localhost:8080/users' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "name": "Priscila Helena",
-    "email": "priscilahelena@gmail.com"
+    "name": "Raimunda",
+    "email": "raimunda@gmail.com"
 }'
  ```
 
